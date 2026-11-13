@@ -1,0 +1,61 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python environments, caches and generated artifacts
+.venv/
+venv/
+env/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.pytest-tmp-run/
+.coverage
+htmlcov/
+*.log
+
+# SQLite runtime databases
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-shm
+*.sqlite-wal
+
+# Node and frontend build outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Keep datasets/, notebooks, presentations, PDFs and project documents tracked.
+
+# Dataset files
+datasets/
+
+# Backend local data
+backend/data/
+
+# Generated outputs
+data_science/outputs/
+
+# Presentations
+*.pptx
+
+# Python caches
+__pycache__/
+.pytest_cache/
+.venv/
